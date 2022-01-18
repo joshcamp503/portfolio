@@ -1,41 +1,32 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Oooh+Baby&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+3&display=swap');
 
-* {
+/* DEFAULT STYLES */
+*,
+*::before,
+*::after {
   box-sizing: border-box;
-  color: darkslategray;
-  font-family: 'Source Sans 3', sans-serif;
+}
+
+* {
   margin: 0;
   padding: 0;
 }
 
-body {
-  background-color: bisque;
-  min-height: 100vh;
+html, body, #root, .App {
+  height: 100%;
 }
 
-li {
-list-style: none;
-}
-
-a {
-  text-decoration: none;
-}
-
-nav {
-  font-size: 1.25rem;
-  padding-right: 4rem;
-}
-
-nav ul {
+.App {
+  background-color: #1C1C1C;
+  color: #CCCCCC;
   display: flex;
-    justify-content: right;
+    flex-direction: column;
 }
 
-nav li {
-  padding: 2rem 3rem;
-}
+/* LIGHT MODE */
 
-nav li:hover {
-  background-color: rgb(137, 192, 194);
+.App.light {
+  background-color: #F0F0F0;
+  color: #383A42;
 }

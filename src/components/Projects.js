@@ -1,0 +1,12 @@
+// STYLES
+import './component-styles/Projects.css'
+
+const Projects = () => {
+  return (
+    <div>
+      
+    </div>
+  )
+}
+
+export default Projects
