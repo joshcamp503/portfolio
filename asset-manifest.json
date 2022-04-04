@@ -1,13 +1,18 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.b881bb25.css",
-    "main.js": "/portfolio/static/js/main.0584a813.js",
+    "main.css": "/portfolio/static/css/main.2c3ef4b7.css",
+    "main.js": "/portfolio/static/js/main.5b2d4128.js",
+    "static/media/ip-locator-preview.png": "/portfolio/static/media/ip-locator-preview.7fdd56746efe3dac8079.png",
+    "static/media/audiophile-preview.png": "/portfolio/static/media/audiophile-preview.40a56342eb3fce1a4565.png",
+    "static/media/where-in-the-world-preview.png": "/portfolio/static/media/where-in-the-world-preview.a0dcb3dff6cef8b5fba6.png",
+    "static/media/portfolio-preview.png": "/portfolio/static/media/portfolio-preview.209b54a3e865def491f1.png",
     "index.html": "/portfolio/index.html",
-    "main.b881bb25.css.map": "/portfolio/static/css/main.b881bb25.css.map",
-    "main.0584a813.js.map": "/portfolio/static/js/main.0584a813.js.map"
+    "static/media/icon-hamburger.svg": "/portfolio/static/media/icon-hamburger.f8a9f0cf12d419a7d18556f98d81a47e.svg",
+    "main.2c3ef4b7.css.map": "/portfolio/static/css/main.2c3ef4b7.css.map",
+    "main.5b2d4128.js.map": "/portfolio/static/js/main.5b2d4128.js.map"
   },
   "entrypoints": [
-    "static/css/main.b881bb25.css",
-    "static/js/main.0584a813.js"
+    "static/css/main.2c3ef4b7.css",
+    "static/js/main.5b2d4128.js"
   ]
 }
