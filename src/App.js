@@ -4,6 +4,8 @@ import { IconContext } from 'react-icons'
 import Home from "./components/Home/Home";
 import Navbar from "./components/Navbar/Navbar";
 import Projects from './components/Projects/Projects';
+import Resume from './components/Resume/Resume';
+import BackToTop from './components/BackToTop/BackToTop';
 
 // HOOKS
 import { useMode } from "./hooks/useMode"
@@ -15,8 +17,10 @@ function App() {
     <div className={`App ${mode}`}>
       <IconContext.Provider value={{ size: "2rem" }}>
         <Navbar />
+        <BackToTop />
         <Home />
         <Projects />
+        <Resume />
       </IconContext.Provider>
     </div>
   );

@@ -14,12 +14,17 @@
     gap: 5rem;
   font-size: 20px;
   letter-spacing: 12px;
-  padding-top: 4rem;
-  padding-bottom: 8rem;
+  padding: 5rem 1rem 8rem 1rem;
 }
 
 .projects .title {
   margin-bottom: 1rem;
+}
+
+.projects .preview-box {
+  display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
 .projects .project-title {
@@ -33,6 +38,15 @@
   height: 205px;
   margin: 1rem auto;
   width: 280px;
+}
+
+.projects .subheading {
+  font-size: 14px;
+  font-weight: 300;
+  letter-spacing: normal;
+  margin-bottom: 10px;
+  text-align: center;
+  width: 300px;
 }
 
 .projects .buttons {
@@ -55,4 +69,36 @@
 
 .projects .buttons button:hover {
   filter: invert(80%);
+}
+
+@media screen and (min-width: 700px) {
+
+  .projects {
+    gap: 7rem;
+  }
+
+  .projects .preview-img {
+    height: 366px;
+    width: 500px;
+  }
+
+  .projects .subheading {
+    margin: 1.5rem 0;
+    width: 550px;
+  }
+
+}
+
+@media screen and (min-width: 1200px) {
+
+  .projects {
+    flex-flow: row wrap;
+    justify-content: center;
+  }
+
+  .projects .title {
+    flex-basis: 100%;
+    text-align: center;
+  }
+
 }

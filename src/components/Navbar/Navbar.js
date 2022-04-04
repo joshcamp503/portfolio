@@ -13,7 +13,7 @@ import { useMode } from "../../hooks/useMode"
 import { useMediaSize } from '../../hooks/useMediaSize';
 import { useState } from 'react'
 
-const Navbar = () => {
+const Navbar = ({ refList, navScroll }) => {
   const { mode } = useMode()
   const [showNav, setShowNav] = useState(false)
 
@@ -38,7 +38,7 @@ const Navbar = () => {
       </nav>
       {showNav && <div className="navmenu-container">
         <div className="x-btn" onClick={closeNav} ><span>x</span></div>
-        <Navmenu />
+        <Navmenu refList={refList} />
       </div>}
     </div>
   )
