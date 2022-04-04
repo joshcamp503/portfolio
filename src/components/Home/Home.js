@@ -1,5 +1,5 @@
 // STYLES
-import './component-styles/Home.css'
+import './Home.css'
 
 // ICONS
 import { FaReact } from 'react-icons/fa'
@@ -8,7 +8,7 @@ import { FaHtml5 } from 'react-icons/fa'
 import { SiCss3 } from 'react-icons/si'
 
 // HOOKS
-import { useMode } from "../hooks/useMode"
+import { useMode } from "../../hooks/useMode"
 
 const Home = () => {
   const { mode } = useMode()
@@ -28,6 +28,10 @@ const Home = () => {
           <div className="container"><div id="function" className={`fade-in ${mode}`}>function</div></div>
           <div className="container"><div id="title" className={`typed ${mode}`}>WebDeveloper()</div></div>
         </h3>
+        <div className="button-box">
+          <button className="call-to-action">SEE MY WORK</button>
+          <button className="resume-btn">SEE MY RESUME</button>
+        </div>
       </div>
     </div>
   )

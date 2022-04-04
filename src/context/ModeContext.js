@@ -16,12 +16,12 @@ const modeReducer = (state, action) => {
 export function ModeProvider({ children }) {
   const [state, dispatch] = useReducer(modeReducer, { mode: 'dark' })
 
-  const changeMode = (mode) => {
+  const setMode = (mode) => {
     dispatch({ type: 'CHANGE_MODE', payload: mode})
   }
 
   return (
-    <ModeContext.Provider value={{...state, changeMode}}>
+    <ModeContext.Provider value={{...state, setMode }}>
       {children}
     </ModeContext.Provider>
   )

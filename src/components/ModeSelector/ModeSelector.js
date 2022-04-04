@@ -1,17 +1,17 @@
 // STYLES
-import './component-styles/ModeSelector.css'
+import './ModeSelector.css'
 
 // ICONS
 import { MdModeNight } from 'react-icons/md'
 
 // HOOKS
-import { useMode } from "../hooks/useMode"
+import { useMode } from "../../hooks/useMode"
 
 const ModeSelector = () => {
-  const { changeMode, mode } = useMode()
+  const { setMode, mode } = useMode()
 
   const toggleMode = () => {
-    changeMode(mode === 'light' ? 'dark' : 'light')
+    setMode(mode === 'light' ? 'dark' : 'light')
   }
 
   return (

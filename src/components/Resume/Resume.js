@@ -1,5 +1,5 @@
 // STYLES
-import './component-styles/Resume.css'
+import './Resume.css'
 
 const Resume = () => {
   return (

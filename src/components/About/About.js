@@ -1,5 +1,5 @@
 // STYLES
-import './component-styles/About.css'
+import './About.css'
 
 const About = () => {
   return (
