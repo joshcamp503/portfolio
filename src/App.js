@@ -16,8 +16,8 @@ function App() {
   return (
     <div className={`App ${mode}`}>
       <IconContext.Provider value={{ size: "2rem" }}>
-        <Navbar />
         <BackToTop />
+        <Navbar />
         <Home />
         <Projects />
         <Resume />

@@ -38,7 +38,7 @@ const Navbar = ({ refList, navScroll }) => {
       </nav>
       {showNav && <div className="navmenu-container">
         <div className="x-btn" onClick={closeNav} ><span>x</span></div>
-        <Navmenu refList={refList} />
+        <Navmenu closeNav={closeNav} />
       </div>}
     </div>
   )

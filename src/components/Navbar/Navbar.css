@@ -65,7 +65,7 @@
   .navmenu-container {
     background-color: #F0F0F0;
     font-family: Consolas, monaco, monospace;
-    position: absolute;
+    position: fixed;
       top: 0;
       z-index: 2;
     width: 100%;

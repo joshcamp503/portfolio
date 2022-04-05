@@ -7,6 +7,9 @@ import { SiJavascript } from 'react-icons/si'
 import { FaHtml5 } from 'react-icons/fa'
 import { SiCss3 } from 'react-icons/si'
 
+// COMPONENTS
+import { Link } from 'react-scroll/modules'
+
 // HOOKS
 import { useMode } from "../../hooks/useMode"
 
@@ -28,10 +31,10 @@ const Home = () => {
           <div className="container"><div id="function" className={`fade-in ${mode}`}>function</div></div>
           <div className="container"><div id="title" className={`typed ${mode}`}>WebDeveloper()</div></div>
         </h3>
-        <div className="button-box">
-          <button className="call-to-action">SEE MY WORK</button>
-          <button className="resume-btn">SEE MY RESUME</button>
-        </div>
+        <ul className="button-box">
+          <li><Link to="projects" spy={true} smooth={true} duration={500} offset={-70}>SEE MY WORK</Link></li>
+          <li><Link to="resume" spy={true} smooth={true} duration={500} offset={-70}>SEE MY RESUME</Link></li>
+        </ul>
       </div>
     </div>
   )
