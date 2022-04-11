@@ -1,70 +1,61 @@
-# Getting Started with Create React App
+# Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A showcase of my web development skills, with links to completed projects and github repositories
 
-## Available Scripts
+## About
 
-In the project directory, you can run:
+VS Code highlights are the inspiration for my portfolio's design. I used the same fonts and color schemes that I use in VS Code. The project itself was built with React. It has a 'scrollTo' navbar, light mode/dark mode selector, and 'back to top' button that appears after scrolling down a little bit.  I included previews of my projects as well as links to the live web sites and github repos.  My resume is also live on the portfolio itself and can be downloaded by clicking one of the buttons.  Finally, I have a contact form that emails form submissions to me using Nodemailer. I'm not much of a designer, but I can at least make things look decent. That's subjective, of course.
 
-### `npm start`
+## Project Screen Shot(s)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+[](src/assets/portfolio-preview.png)
+<img src="src/assets/portfolio-preview.png" alt="homepage preview" height="250" width="400">
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+[](src/assets/projects-portfolio-preview.png)
+<img src="src/assets/projects-portfolio-preview.png" alt="projects preview" height="250" width="400">
 
-### `npm test`
+[](src/assets/resume-portfolio-preview.png)
+<img src="src/assets/resume-portfolio-preview.png" alt="resume preview" height="250" width="400">
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+[](src/assets/contact-portfolio-preview.png)
+<img src="src/assets/contact-portfolio-preview.png" alt="contact preview" height="250" width="400">
 
-### `npm run build`
+[](src/assets/light-mode-portfolio-preview.png)
+<img src="src/assets/light-mode-portfolio-preview.png" alt="light mode preview" height="250" width="400">
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Live Demo
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+https://joshcamp.dev/
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+## Dependencies
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+*Nodemailer
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+*React-scroll
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+*Node.js
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+*Express.js
 
-## Learn More
+*React.js
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Authors
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Josh Campanella  
+[Portfolio](https://joshcamp.dev)
 
-### Code Splitting
+## Version History
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+* 0.1
+    * Initial Release
 
-### Analyzing the Bundle Size
+## Acknowledgments
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Inspiration, code snippets, etc.
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+* [Nodemailer](https://nodemailer.com/)
+* [React-scroll](https://www.npmjs.com/package/react-scroll)
+* [Node](https://nodejs.org/)
+* [Express.js](https://expressjs.com/)
+* [React.js](https://leafletjs.com/)
